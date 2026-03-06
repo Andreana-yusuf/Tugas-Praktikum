@@ -1,4 +1,4 @@
-public class DemoLinkedList {slebew
+public class DemoLinkedList {
 
     Element head;
 
