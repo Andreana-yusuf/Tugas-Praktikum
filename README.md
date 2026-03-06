@@ -11,6 +11,9 @@ Java
 
 ## Anggota
 - Hanif Al
-
+- Muhammad Andreana Yusuf
+- Muhamad Arifin Hidayatullah
+- Sabian Mugis Prama
+  
 ## Deskripsi
 Program ini adalah contoh implementasi struktur data Linked List sederhana menggunakan Java.
