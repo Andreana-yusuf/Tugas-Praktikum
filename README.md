@@ -1,5 +1,5 @@
 # Linked List Java
-Repository ini berisi latihan implementasi Linked List menggunakan bahasa Java. sabian ganteng buaya
+Repository ini berisi latihan implementasi Linked List menggunakan bahasa Java. sabian ganteng buaya ganteng ganten
 
 ## Bahasa Pemrograman
 Java
