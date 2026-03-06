@@ -1,5 +1,4 @@
 # Linked List Java
-
 Repository ini berisi latihan implementasi Linked List menggunakan bahasa Java.
 
 ## Bahasa Pemrograman
@@ -10,7 +9,7 @@ Java
 - DemoLinkedList.java
 
 ## Anggota
-- Hanif Al
+- Muhamad Muslim Al Hanif 
 - Muhammad Andreana Yusuf
 - Muhamad Arifin Hidayatullah
 - Sabian Mugis Prama
