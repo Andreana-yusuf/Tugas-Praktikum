@@ -1,4 +1,4 @@
-public class DemoLinkedList {smackdown
+public class DemoLinkedList {
 
     Element head;
 
