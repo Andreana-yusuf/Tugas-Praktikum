@@ -1,9 +1,13 @@
 class Element {
-    int data;
-    Element next;
+   
+    String isi;
+    Element berikutnya; 
+    Element sebelumnya;
 
-    public Element(int data) {
-        this.data = data;
-        this.next = null;
+   
+    public Element(String isi) {
+        this.isi = isi;
+        this.berikutnya = null;
+        this.sebelumnya = null;
     }
 }

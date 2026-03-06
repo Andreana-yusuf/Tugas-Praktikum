@@ -1,40 +1,19 @@
+import java.util.LinkedList;
+
 public class DemoLinkedList {
-
-    Element head;
-
-    public void tambah(int data) {
-        Element baru = new Element(data);
-
-        if (head == null) {
-            head = baru;
-        } else {
-            Element current = head;
-            while (current.next != null) {
-                current = current.next;
-            }
-            current.next = baru;
-        }
-    }
-
-    public void tampil() {
-        Element current = head;
-
-        while (current != null) {
-            System.out.print(current.data + " -> ");
-            current = current.next;
-        }
-
-        System.out.println("null");
-    }
-
     public static void main(String[] args) {
+        LinkedList<String> daftarTugas = new LinkedList<>();
 
-        DemoLinkedList list = new DemoLinkedList();
+        
+        daftarTugas.add("Belajar Java");      
+        daftarTugas.addFirst("NGOPI");     
+        daftarTugas.addLast("Tidur");        
 
-        list.tambah(10);
-        list.tambah(20);
-        list.tambah(30);
+        
+        System.out.println("Tugas pertama: " + daftarTugas.getFirst());
 
-        list.tampil();
+        
+        daftarTugas.remove("Belajar Java");
+        daftarTugas.removeFirst();      
     }
 }

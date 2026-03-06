@@ -1,1 +1,20 @@
+public class Main {
+    public static void main(String[] args) {
+        SiswaLinkedList listSiswa = new SiswaLinkedList();
 
+        // Mengisi 5 siswa
+        listSiswa.tambahBelakang("Ali");    // Index 0
+        listSiswa.tambahBelakang("Budi");   // Index 1
+        listSiswa.tambahBelakang("Charli"); // Index 2
+        listSiswa.tambahBelakang("Doni");   // Index 3
+        listSiswa.tambahBelakang("Edward"); // Index 4
+
+        // Menampilkan hasil
+        System.out.println("Daftar Siswa:");
+        listSiswa.tampilkanSemua();
+
+        System.out.println("Total siswa: " + listSiswa.hitungElement());
+        
+        listSiswa.tampilkanElement(2); // Menampilkan Charli
+    }
+}
