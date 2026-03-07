@@ -1,19 +1,22 @@
-import java.util.LinkedList;
-
 public class DemoLinkedList {
+
     public static void main(String[] args) {
-        LinkedList<String> daftarTugas = new LinkedList<>();
 
-        
-        daftarTugas.add("Belajar Java");      
-        daftarTugas.addFirst("NGOPI");     
-        daftarTugas.addLast("Tidur");        
+        LinkedList list = new LinkedList();
 
-        
-        System.out.println("Tugas pertama: " + daftarTugas.getFirst());
+        list.append("A");
+        list.append("B");
+        list.append("C");
 
-        
-        daftarTugas.remove("Belajar Java");
-        daftarTugas.removeFirst();      
+        list.prepend("Start");
+
+        list.insertAt(2, "Middle");
+
+        System.out.println("Semua element:");
+        list.showAll();
+
+        System.out.println("Jumlah element: " + list.count());
+
+        list.showElement(2);
     }
 }
