@@ -1,13 +1,11 @@
-class Element {
-   
-    String isi;
-    Element berikutnya; 
-    Element sebelumnya;
+public class Elemen {
+    String value;
+    Elemen next;
+    Elemen prev;
 
-   
-    public Element(String isi) {
-        this.isi = isi;
-        this.berikutnya = null;
-        this.sebelumnya = null;
+    public Elemen(String value) {
+        this.value = value;
+        this.next = null;
+        this.prev = null;
     }
 }
