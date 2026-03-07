@@ -15,3 +15,6 @@ Java
   
 ## Deskripsi
 Program ini adalah contoh implementasi struktur data Linked List sederhana menggunakan Java.
+
+## coba
+bian bian abian baina bian abian abian
